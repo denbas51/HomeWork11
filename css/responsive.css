@@ -210,8 +210,8 @@
   }
   .pensil::before {
     font-size: 79px;
-    right: calc(50% - 28px);
-    top: calc(50% - 38px);
+    right: calc(50% - 30px);
+    top: calc(50% - 40px);
   }
   .monitor::before {
     font-size: 60px;
@@ -322,6 +322,8 @@
   }
   .popular li span {
     margin-right: 5vw;
+    min-width: 25vw;
+    height: 25vw;
   }
   .content-right {
     padding-left: 25px;
