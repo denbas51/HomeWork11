@@ -242,6 +242,8 @@ nav input[type="checkbox"] {
 }
 .content-right {
   align-self: flex-end;
+  padding-right: 90px;
+  flex-basis: 60%;
 }
 .content-right h4 {
   font: 26px/44px "SegoeWPN", sans-serif;

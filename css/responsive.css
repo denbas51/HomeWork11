@@ -48,15 +48,16 @@
   .popular li {
     width: 30%;
   }
-
   .shopping-cart {
     padding-right: 0px;
   }
-  .content-right p {
-    font-size: 13px;
-    line-height: 25px;
+  .content-right {
+    padding-right: 10vw;
   }
-
+  .content-right p {
+    font-size: 15px;
+    line-height: 30px;
+  }
   .content-left {
     width: 40%;
   }
@@ -128,7 +129,6 @@
   .logo strong {
     font-size: 49px;
   }
-
   nav ul {
     display: none;
   }
@@ -203,7 +203,7 @@
     display: none;
   }
   .popular li span {
-    width: 136px;
+    min-width: 136px;
     height: 136px;
     margin-right: 24px;
     margin-bottom: 0;
@@ -246,6 +246,8 @@
   }
   .content-right {
     align-self: unset;
+    padding-right: 65px;
+    padding-left: 65px;
   }
   .content-right h4 {
     font-size: 34px;
@@ -271,6 +273,9 @@
   .logo span {
     margin-right: 2vw;
   }
+  .sub {
+    margin-top: 5vw;
+  }
   .sub a {
     width: 40vw;
     height: 10vw;
@@ -281,20 +286,25 @@
     top: calc(50% - 16px);
     left: 2vw;
   }
+  .slide {
+    height: 49vw;
+  }
   .phone img {
-    height: 223px;
-    width: 35vw;
+    height: 41vw;
+    width: 33vw;
   }
   .cover {
     left: 42vw;
   }
   .cover h1 {
-    font-size: 5.9vw;
+    font-size: 5.8vw;
     line-height: 36px;
+    padding-top: 5vw;
+    margin-bottom: 2vw;
   }
   .cover p {
-    font-size: 4.8vw;
-    line-height: 36px;
+    font-size: 4.6vw;
+    line-height: 7vw;
   }
   .sub::before {
     font-size: 6vw;
@@ -311,33 +321,14 @@
     font-size: 4vw;
   }
   .popular li span {
-    height: 23vw;
     margin-right: 5vw;
   }
-  .pensil::before {
-    font-size: 13vw;
-    right: calc(50% - 6vw);
-    top: calc(50% - 6vw);
-  }
-  .monitor::before {
-    font-size: 11vw;
-    right: calc(50% - 6.5vw);
-    top: calc(50% - 5.5vw);
-  }
-  .box::before {
-    font-size: 12vw;
-    right: calc(50% - 7vw);
-    top: calc(50% - 6vw);
-  }
   .content-right {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
   .content-right p {
     font-size: 17px;
     line-height: 30px;
-  }
-  .content-right p br {
-    display: none;
   }
 }
